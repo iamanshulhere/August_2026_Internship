@@ -6,7 +6,9 @@ print("First 5 Rows")
 print(df.head())
 
 print("\nDataset Info")
-print(df.info())
+
+print("\nDataset Information")
+df.info()
 
 print("\nMissing Values")
 print(df.isnull().sum())
